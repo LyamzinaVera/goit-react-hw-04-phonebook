@@ -48,7 +48,7 @@ export default function App(){
 
     return (
     
-  <div>
+  <div className={style.container}>
     <h1>Phonebook</h1>
     <ContactForm onSubmit={addContact} />
     <h2>Contacts</h2>
